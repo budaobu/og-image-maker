@@ -11,13 +11,13 @@ export default function Header() {
         <div>
           <Link
             href="/"
-            title="Free OG Image Generator"
+            title="Free Open Graph Image Generator"
             prefetch={false}
             className="flex items-center space-x-2"
           >
             <img src="/logo.svg" alt="Logo" className="h-8 w-8" />
             <span className="hidden text-2xl font-bold md:block">
-              Free OG Image Generator
+              Free Open Graph Image Generator
             </span>
           </Link>
         </div>

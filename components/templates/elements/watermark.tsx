@@ -5,7 +5,8 @@ interface Props {
 }
 
 export function Watermark({ style }: Props) {
-  return (
+  reture null;
+  /* return (
     <div
       style={{
         display: "flex",
@@ -23,5 +24,5 @@ export function Watermark({ style }: Props) {
         }}
       />
     </div>
-  )
+  ) */
 }

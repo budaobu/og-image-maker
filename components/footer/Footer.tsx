@@ -14,11 +14,11 @@ export default function Footer() {
           <div className="flex flex-col gap-4 sm:flex-row sm:items-center">
             <Link
               href={siteConfig.url}
-              title="Free OG Image Generator"
+              title="Free Open Graph Image Generator"
               prefetch={false}
               className="font-mono font-semibold hover:underline"
             >
-              Free OG Image Generator
+              Free Open Graph Image Generator
             </Link>
 
             <Button variant="link" asChild>
