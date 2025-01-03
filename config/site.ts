@@ -1,16 +1,16 @@
 import { SiteConfig } from "@/types/siteConfig";
 
-export const SITE_OWNER = "Jude Wei";
-export const BASE_URL = "https://ogimage.click";
+export const SITE_OWNER = "dakaiai";
+export const BASE_URL = "https://og.dakaiai.app";
 export const TWITTER_URL = "https://x.com/intent/follow?screen_name=judewei_dev";
 export const BLUESKY_URL = "https://bsky.app/profile/judewei.bsky.social";
 
 
 const baseSiteConfig = {
-  name: "Free OG Image Generator",
-  title: "Free OG Image Generator",
+  name: "Free Open Graph Image Generator",
+  title: "Free Open Graph Image Generator",
   description:
-    "Create beautiful OG images, Twitter/X Header Images & more for free, in simple clicks.",
+    "Create beautiful OG images for your website, blog, or X(Twitter) profile for free, in simple clicks.",
   url: BASE_URL,
   metadataBase: new URL(BASE_URL),
   keywords: [],
